@@ -2,7 +2,10 @@ module github.com/XingfenD/tofu-mas
 
 go 1.24.1
 
-require fyne.io/fyne/v2 v2.6.0
+require (
+	fyne.io/fyne/v2 v2.6.0
+	github.com/sirupsen/logrus v1.9.3
+)
 
 require (
 	fyne.io/systray v1.11.0 // indirect
